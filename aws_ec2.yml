@@ -1,0 +1,9 @@
+plugin: aws_ec2
+aws_profile: default
+regions:
+  - us-east-1
+hostnames:
+  - ip-address
+keyed_groups:
+  - key: tags.Name # Use your tag key here (case-sensitive)
+    #prefix: tag_Env
